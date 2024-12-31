@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red</title>
+    <style>
+        body {
+            background-color: #d1f3e7;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navegación */
+        .main-nav {
+            background-color: #0e3721;
+            padding: 1rem;
+        }
+
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .main-nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .main-nav a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #ffffff;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #0e3721;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            color: #0e3721;
+            margin-top: 1rem;
+        }
+
+        /* Secciones Destacadas */
+        .featured-sections {
+            margin: 3rem auto;
+            max-width: 1200px;
+            padding: 2rem;
+        }
+
+        .featured-sections h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #0e3721;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid-item h3 {
+            font-size: 1.5rem;
+            color: #0e3721;
+        }
+
+        .grid-item p {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .grid-item a {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .grid-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #0e3721;
+            color: white;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Mí</a></li>
+            <li><a href="contacts.html">Contacto</a></li>
+            
+            <li><a href="bmw.html">Tema</a></li>
+            <li><a href="grado.html">Grado</a></li>
+            <li><a href="fii.html">FII</a></li>
+            
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Bienvenido a Red</h1>
+        <p>Explora la red de compañeros de la UFV</p>
+    </section>
+
+    <section class="featured-sections">
+        <h2>Compañeros destacados</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Sección 1</h3>
+                <p>Descripción breve de la sección 1.</p>
+                <a href="#">Ir a Sección 1</a>
+            </div>
+            <div class="grid-item">
+                <h3>Sección 2</h3>
+                <p>Descripción breve de la sección 2.</p>
+                <a href="#">Ir a Sección 2</a>
+            </div>
+            <div class="grid-item">
+                <h3>Sección 3</h3>
+                <p>Descripción breve de la sección 3.</p>
+                <a href="#">Ir a Sección 3</a>
+            </div>
+            <div class="grid-item">
+                <h3>Sección 4</h3>
+                <p>Descripción breve de la sección 4.</p>
+                <a href="#">Ir a Sección 4</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Red. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
